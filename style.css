@@ -1,0 +1,28 @@
+*{
+
+    font-family: "Victor Mono", sans-serif;
+}
+
+body{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./images/bg.svg) no-repeat;
+}
+
+.content{
+    width: 100%;
+    top: 50%;
+    position: absolute;
+    transform: translateY(-55%);
+    text-align: center;
+    color: #ddd;
+}
+
+.content h1{
+    font-size: 100px;
+}
+.content p{
+    width: 85%;
+    margin: 20px auto;
+    line-height: 25px;
+    font-weight: 100;
+    font-size: 25px;
+}
